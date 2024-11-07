@@ -1,0 +1,637 @@
+# Copyright (c) 2021 GoDaddy Operating Company, LLC. All Rights Reserved.
+msgid ""
+msgstr ""
+"Project-Id-Version: Godaddy Payments 1.7.4\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/godaddy-payments\n"
+"Last-Translator: plugins@godaddy.com\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-04-03T02:03:32+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: godaddy-payments\n"
+
+#. Plugin Name of the plugin
+#: godaddy-payments.php
+#: src/Frontend/Admin/Notices.php:132
+#: src/Frontend/Admin/Notices.php:162
+#: src/Gateways/CreditCardGateway.php:89
+#: src/Plugin.php:233
+msgid "GoDaddy Payments"
+msgstr "GoDaddy Payments"
+
+#. Plugin URI of the plugin
+#: godaddy-payments.php
+msgid "https://payments.godaddy.com/"
+msgstr "https://payments.godaddy.com/"
+
+#. Description of the plugin
+#: godaddy-payments.php
+msgid "Securely accept credit/debit cards in your checkout, and keep more of your money with the industry's lowest fees—just 2.9% + 30¢ per online transaction. Get paid fast with deposits as soon as the next day."
+msgstr "Securely accept credit/debit cards in your checkout, and keep more of your money with the industry's lowest fees—just 2.9% + 30¢ per online transaction. Get paid fast with deposits as soon as the next day."
+
+#. Author of the plugin
+#: godaddy-payments.php
+msgid "GoDaddy"
+msgstr "GoDaddy"
+
+#. Author URI of the plugin
+#: godaddy-payments.php
+msgid "https://www.godaddy.com/"
+msgstr "https://www.godaddy.com/"
+
+#: src/API.php:126
+msgid "Your transaction can't be completed due to an invalid country code in the checkout form. Please contact the store owner to place your order."
+msgstr "Your transaction can't be completed due to an invalid country code in the checkout form. Please contact the store owner to place your order."
+
+#: src/API/Cards/TokenizeResponse.php:68
+msgid "Your billing address doesn't match your payment card information. Please update the billing address to submit your order."
+msgstr "Your billing address doesn't match your payment card information. Please update the billing address to submit your order."
+
+#: src/Emails/ReadyForPickupEmail.php:49
+msgid "Ready for pickup"
+msgstr "Ready for pickup"
+
+#: src/Emails/ReadyForPickupEmail.php:50
+msgid "Ready for pickup emails are sent to customers when their order is marked as ready for pickup."
+msgstr "Ready for pickup emails are sent to customers when their order is marked as ready for pickup."
+
+#: src/Emails/ReadyForPickupEmail.php:63
+msgid "Your {site_title} order is ready for pickup!"
+msgstr "Your {site_title} order is ready for pickup!"
+
+#: src/Emails/ReadyForPickupEmail.php:73
+msgid "Order ready for pickup!"
+msgstr "Order ready for pickup!"
+
+#: src/Frontend/Admin/Notices.php:119
+msgid "Set up GoDaddy Payments in minutes to securely accept credit and debit card transactions in your WooCommerce checkout."
+msgstr "Set up GoDaddy Payments in minutes to securely accept credit and debit card transactions in your WooCommerce checkout."
+
+#: src/Frontend/Admin/Notices.php:120
+#: src/Frontend/Admin/Notices.php:134
+#: src/Frontend/Admin/Notices.php:164
+msgid "Set up Godaddy Payments"
+msgstr "Set up Godaddy Payments"
+
+#: src/Frontend/Admin/Notices.php:133
+msgid "Set up GoDaddy Payments in minutes to securely accept payments via Pay in Person terminal."
+msgstr "Set up GoDaddy Payments in minutes to securely accept payments via Pay in Person terminal."
+
+#: src/Frontend/Admin/Notices.php:163
+msgid "Set up GoDaddy Payments - Pay in Store to accept payments with POS terminal."
+msgstr "Set up GoDaddy Payments - Pay in Store to accept payments with POS terminal."
+
+#: src/Frontend/Admin/Notices.php:190
+msgid "GoDaddy Payments has declined a transaction due to an invalid country code submitted in checkout. Please update your checkout to use ISO 3166-1 alpha-2 or alpha-3 standard country codes (example: US or USA) to prevent declines."
+msgstr "GoDaddy Payments has declined a transaction due to an invalid country code submitted in checkout. Please update your checkout to use ISO 3166-1 alpha-2 or alpha-3 standard country codes (example: US or USA) to prevent declines."
+
+#: src/Gateways/CreditCardGateway.php:94
+msgctxt "Gateway environment"
+msgid "Production"
+msgstr "Production"
+
+#: src/Gateways/CreditCardGateway.php:95
+msgctxt "Gateway environment"
+msgid "Staging"
+msgstr "Staging"
+
+#. translators: Context: pricing (e.g.: 2.7% + 0¢) formatted using HTML entities - only adjust formatting if necessary for the given locale
+#: src/Gateways/CreditCardGateway.php:129
+#: src/Plugin.php:783
+msgid "2.7&#37; + 0&#162;"
+msgstr "2.7&#37; + 0&#162;"
+
+#. translators: Context: pricing (e.g.: 2.9% + 30¢) formatted using HTML entities - only adjust formatting if necessary for the given locale
+#: src/Gateways/CreditCardGateway.php:133
+#: src/Plugin.php:787
+msgid "2.9&#37; + 30&#162;"
+msgstr "2.9&#37; + 30&#162;"
+
+#. translators: Placeholders: %1$s - pricing, %2$s - <a> tag, %3$s - </a> tag
+#: src/Gateways/CreditCardGateway.php:138
+msgid "Securely accept credit/debit cards in your checkout, and keep more of your money with the industry's lowest fees—just %1$s per online transaction. Get paid fast with deposits as soon as the next day. %2$sGoDaddy Payments Terms apply%3$s."
+msgstr "Securely accept credit/debit cards in your checkout, and keep more of your money with the industry's lowest fees—just %1$s per online transaction. Get paid fast with deposits as soon as the next day. %2$sGoDaddy Payments Terms apply%3$s."
+
+#. translators: Placeholders: %1$s - payment gateway title, %2$s - a monetary amount. Void as in to void an order.
+#: src/Gateways/CreditCardGateway.php:161
+msgid "%1$s Void in the amount of %2$s approved."
+msgstr "%1$s Void in the amount of %2$s approved."
+
+#: src/Gateways/CreditCardGateway.php:170
+msgid "(Transaction ID %s)"
+msgstr "(Transaction ID %s)"
+
+#: src/Gateways/CreditCardGateway.php:217
+msgid "invalid country code"
+msgstr "invalid country code"
+
+#: src/Gateways/CreditCardGateway.php:316
+msgid "GoDaddy Payments payment in the amount of %s approved. "
+msgstr "GoDaddy Payments payment in the amount of %s approved. "
+
+#: src/Gateways/CreditCardGateway.php:320
+msgid "Transaction ID: %s."
+msgstr "Transaction ID: %s."
+
+#. translators: Placeholder: %1$s - last four digits of an account number (e.g. credit card)
+#: src/Gateways/CreditCardGateway.php:332
+msgid "ending in %1$s"
+msgstr "ending in %1$s"
+
+#: src/Gateways/CreditCardGateway.php:338
+msgid "(expires %s)"
+msgstr "(expires %s)"
+
+#: src/Gateways/CreditCardGateway.php:342
+msgid "(Authorization only transaction)"
+msgstr "(Authorization only transaction)"
+
+#: src/Gateways/CreditCardGateway.php:955
+msgid "Enable / Disable"
+msgstr "Enable / Disable"
+
+#: src/Gateways/CreditCardGateway.php:956
+msgid "Enable this gateway"
+msgstr "Enable this gateway"
+
+#: src/Gateways/CreditCardGateway.php:957
+msgid "Enable to add the payment method to your checkout."
+msgstr "Enable to add the payment method to your checkout."
+
+#: src/Gateways/CreditCardGateway.php:962
+msgid "Title in Checkout"
+msgstr "Title in Checkout"
+
+#: src/Gateways/CreditCardGateway.php:964
+#: src/Gateways/PayInPersonGateway.php:340
+msgid "Payment method title that the customer will see during checkout."
+msgstr "Payment method title that the customer will see during checkout."
+
+#: src/Gateways/CreditCardGateway.php:968
+msgid "Description in Checkout"
+msgstr "Description in Checkout"
+
+#: src/Gateways/CreditCardGateway.php:970
+msgid "Payment method description that the customer will see during checkout."
+msgstr "Payment method description that the customer will see during checkout."
+
+#: src/Gateways/CreditCardGateway.php:974
+msgid "Accepted Card Logos"
+msgstr "Accepted Card Logos"
+
+#: src/Gateways/CreditCardGateway.php:976
+msgid "These are the card logos that are displayed to customers as accepted during checkout."
+msgstr "These are the card logos that are displayed to customers as accepted during checkout."
+
+#. translators: Placeholders: %1$s - <strong> tag, %2$s - </strong> tag
+#: src/Gateways/CreditCardGateway.php:979
+msgid "This setting %1$sdoes not%2$s change which card types the gateway will accept."
+msgstr "This setting %1$sdoes not%2$s change which card types the gateway will accept."
+
+#: src/Gateways/CreditCardGateway.php:989
+msgid "Saved Cards"
+msgstr "Saved Cards"
+
+#: src/Gateways/CreditCardGateway.php:990
+msgid "Allow customers to securely save their payment details for future checkout."
+msgstr "Allow customers to securely save their payment details for future checkout."
+
+#: src/Gateways/CreditCardGateway.php:996
+#: src/Gateways/CreditCardGateway.php:1007
+msgid "Connection settings"
+msgstr "Connection settings"
+
+#. translators: Placeholders: %1$s - opening <a> HTML link tag, %2$s - closing </a> HTML link tag, %3$s - opening <a> HTML link tag, %4$s - closing </a> HTML link tag
+#: src/Gateways/CreditCardGateway.php:999
+#: src/Gateways/CreditCardGateway.php:1010
+msgid "To connect to GoDaddy Payments, %1$screate a GoDaddy Payments account%2$s. Then copy your Application ID and Private key from the Business Settings under Advanced Tools in your Payments dashboard and paste them in the fields below. %3$sLearn more%4$s"
+msgstr "To connect to GoDaddy Payments, %1$screate a GoDaddy Payments account%2$s. Then copy your Application ID and Private key from the Business Settings under Advanced Tools in your Payments dashboard and paste them in the fields below. %3$sLearn more%4$s"
+
+#: src/Gateways/CreditCardGateway.php:1017
+msgid "Application ID"
+msgstr "Application ID"
+
+#: src/Gateways/CreditCardGateway.php:1019
+msgid "Enter your Application ID"
+msgstr "Enter your Application ID"
+
+#: src/Gateways/CreditCardGateway.php:1023
+msgid "Private Key"
+msgstr "Private Key"
+
+#: src/Gateways/CreditCardGateway.php:1025
+msgid "Enter your Private Key"
+msgstr "Enter your Private Key"
+
+#: src/Gateways/CreditCardGateway.php:1029
+msgid "Staging Application ID"
+msgstr "Staging Application ID"
+
+#: src/Gateways/CreditCardGateway.php:1031
+msgid "Enter your staging Application ID"
+msgstr "Enter your staging Application ID"
+
+#: src/Gateways/CreditCardGateway.php:1035
+msgid "Staging Private Key"
+msgstr "Staging Private Key"
+
+#: src/Gateways/CreditCardGateway.php:1037
+msgid "Enter your staging Private Key"
+msgstr "Enter your staging Private Key"
+
+#: src/Gateways/CreditCardGateway.php:1273
+msgctxt "Checkout error"
+msgid "An error occurred, please try again or try an alternate form of payment."
+msgstr "An error occurred, please try again or try an alternate form of payment."
+
+#: src/Gateways/CreditCardGateway.php:1277
+msgctxt "Credit or debit card"
+msgid "Missing card details."
+msgstr "Missing card details."
+
+#: src/Gateways/CreditCardGateway.php:1281
+msgctxt "Checkout error"
+msgid "Missing billing details."
+msgstr "Missing billing details."
+
+#: src/Gateways/PayInPersonGateway.php:79
+msgid "GoDaddy Payments – Selling in Person"
+msgstr "GoDaddy Payments – Selling in Person"
+
+#: src/Gateways/PayInPersonGateway.php:80
+msgid "Customers can buy online and pay in person with orders synced to your Smart Terminal."
+msgstr "Customers can buy online and pay in person with orders synced to your Smart Terminal."
+
+#: src/Gateways/PayInPersonGateway.php:242
+msgid "Return to payments"
+msgstr "Return to payments"
+
+#. translators: Placeholders: %1$s - opening HTML tag, %2$s - closing HTML tag
+#: src/Gateways/PayInPersonGateway.php:250
+msgid "%1$sShop Smart Terminal%2$s"
+msgstr "%1$sShop Smart Terminal%2$s"
+
+#. translators: Placeholders: %1$s - opening HTML tag, %2$s - closing HTML tag
+#: src/Gateways/PayInPersonGateway.php:257
+msgid "%1$sDevices%2$s"
+msgstr "%1$sDevices%2$s"
+
+#. translators: Placeholders: %1$s - opening HTML tag, %2$s - closing HTML tag
+#: src/Gateways/PayInPersonGateway.php:264
+msgid "%1$sCatalogs%2$s"
+msgstr "%1$sCatalogs%2$s"
+
+#. translators: Placeholders: %1$s - opening HTML tag, %2$s - closing HTML tag
+#: src/Gateways/PayInPersonGateway.php:271
+msgid "%1$sCustomize Terminal%2$s"
+msgstr "%1$sCustomize Terminal%2$s"
+
+#: src/Gateways/PayInPersonGateway.php:284
+msgid "Smart Terminal"
+msgstr "Smart Terminal"
+
+#: src/Gateways/PayInPersonGateway.php:285
+msgid "Dual screens for smoother selling."
+msgstr "Dual screens for smoother selling."
+
+#: src/Gateways/PayInPersonGateway.php:286
+msgid "Our dual screens make check out a breeze. Plus, our all-in-one terminal includes a built-in payment processor, scanner, printer, security and more."
+msgstr "Our dual screens make check out a breeze. Plus, our all-in-one terminal includes a built-in payment processor, scanner, printer, security and more."
+
+#: src/Gateways/PayInPersonGateway.php:295
+msgid "Free"
+msgstr "Free"
+
+#: src/Gateways/PayInPersonGateway.php:296
+msgid "2-day shipping."
+msgstr "2-day shipping."
+
+#: src/Gateways/PayInPersonGateway.php:299
+msgid "Learn More"
+msgstr "Learn More"
+
+#: src/Gateways/PayInPersonGateway.php:338
+msgid "Title"
+msgstr "Title"
+
+#: src/Gateways/PayInPersonGateway.php:344
+#: src/Shipping/LocalDelivery/LocalDelivery.php:174
+msgid "Order received instructions"
+msgstr "Order received instructions"
+
+#: src/Gateways/PayInPersonGateway.php:347
+msgid "Message that the customer will see on the order received page and in the processing order email after checkout."
+msgstr "Message that the customer will see on the order received page and in the processing order email after checkout."
+
+#: src/Gateways/PayInPersonGateway.php:350
+msgid "Enable for Shipping Methods"
+msgstr "Enable for Shipping Methods"
+
+#: src/Gateways/PayInPersonGateway.php:356
+msgid "Select the shipping methods that will show this payment method for the customer during checkout."
+msgstr "Select the shipping methods that will show this payment method for the customer during checkout."
+
+#: src/Gateways/PayInPersonGateway.php:358
+msgid "Select Shipping Methods"
+msgstr "Select Shipping Methods"
+
+#: src/Gateways/PayInPersonGateway.php:427
+msgid "At least one shipping method is required to enable Selling in Person."
+msgstr "At least one shipping method is required to enable Selling in Person."
+
+#. translators: Placeholders: %1$s - shipping zone name, %2$s - shipping method name
+#: src/Gateways/PayInPersonGateway.php:462
+msgid "%1$s &ndash; %2$s"
+msgstr "%1$s &ndash; %2$s"
+
+#: src/Gateways/PayInPersonGateway.php:463
+msgid "Other locations"
+msgstr "Other locations"
+
+#. translators: Placeholders: %1$s - shipping method title, %2$s - shipping method id
+#: src/Gateways/PayInPersonGateway.php:465
+msgid "%1$s (#%2$s)"
+msgstr "%1$s (#%2$s)"
+
+#: src/Gateways/PayInPersonGateway.php:487
+msgid "Local Pickup Plus method"
+msgstr "Local Pickup Plus method"
+
+#. translators: Placeholder: %s - Shipping method name
+#: src/Gateways/PayInPersonGateway.php:489
+msgid "Any \"%s\" method"
+msgstr "Any \"%s\" method"
+
+#: src/Gateways/PayInPersonGateway.php:658
+msgid "Pay in Person"
+msgstr "Pay in Person"
+
+#: src/Gateways/PayInPersonGateway.php:670
+msgid "Pay for your order in-person at pickup or delivery."
+msgstr "Pay for your order in-person at pickup or delivery."
+
+#: src/Gateways/PayInPersonGateway.php:684
+msgid "We accept major credit/debit cards and cash."
+msgstr "We accept major credit/debit cards and cash."
+
+#: src/Lifecycle.php:121
+msgid "Credit Card"
+msgstr "Credit Card"
+
+#: src/Lifecycle.php:122
+msgid "Allow customers to securely pay using their credit cards with Poynt."
+msgstr "Allow customers to securely pay using their credit cards with Poynt."
+
+#: src/Pages/ViewOrderPage.php:63
+msgid "Order is ready for pickup."
+msgstr "Order is ready for pickup."
+
+#: src/Payments/Captures.php:121
+msgid "This charge has been fully captured"
+msgstr "This charge has been fully captured"
+
+#: src/Payments/Captures.php:129
+msgid "Capture Charge"
+msgstr "Capture Charge"
+
+#: src/Payments/Captures.php:139
+msgid "Are you sure you wish to process this capture? The action cannot be undone."
+msgstr "Are you sure you wish to process this capture? The action cannot be undone."
+
+#: src/Payments/Captures.php:140
+msgid "Something went wrong, and the capture could not be completed. Please try again."
+msgstr "Something went wrong, and the capture could not be completed. Please try again."
+
+#: src/Payments/Captures.php:195
+msgid "Order not authorized for capture"
+msgstr "Order not authorized for capture"
+
+#: src/Payments/Captures.php:199
+msgid "Order  already captured"
+msgstr "Order  already captured"
+
+#: src/Payments/Captures.php:205
+msgid "Transaction cannot be captured"
+msgstr "Transaction cannot be captured"
+
+#: src/Plugin.php:321
+#: src/Plugin.php:328
+msgctxt "Payment gateway title"
+msgid "Configure %s"
+msgstr "Configure %s"
+
+#. translators: Placeholders: %1$s - opening <a> HTML link tag, %2$s - closing </a> HTML link tag
+#: src/Plugin.php:399
+msgid "Migration successful! WooCommerce Poynt Collect Payment Gateway was deactivated, and Poynt &mdash; a GoDaddy Brand for WooCommerce has been %1$sconfigured with your previous settings%2$s."
+msgstr "Migration successful! WooCommerce Poynt Collect Payment Gateway was deactivated, and Poynt &mdash; a GoDaddy Brand for WooCommerce has been %1$sconfigured with your previous settings%2$s."
+
+#. translators: Placeholders: %1$s - list of supported currencies, %2$s - store country, %3$s - opening <a> HTML link tag, %4$s - closing </a> HTML link tag, %5$s - currency code
+#: src/Plugin.php:640
+msgid "GoDaddy Payments requires %1$s transactions for %2$s businesses. Please %3$schange your Currency%4$s to %5$s in order to use the payment method."
+msgstr "GoDaddy Payments requires %1$s transactions for %2$s businesses. Please %3$schange your Currency%4$s to %5$s in order to use the payment method."
+
+#. translators: Placeholders: %1$s - list of supported currencies, %2$s - opening <a> HTML link tag, %3$s - closing </a> HTML link tag
+#: src/Plugin.php:682
+msgid "GoDaddy Payments requires %1$s transactions. Please %2$schange your Currency%3$s in order to use the payment method."
+msgstr "GoDaddy Payments requires %1$s transactions. Please %2$schange your Currency%3$s in order to use the payment method."
+
+#. translators: Placeholders: %1$s - list of supported countries, %2$s - opening <a> HTML link tag, %3$s - closing </a> HTML link tag, %4$s - list of supported countries %
+#: src/Plugin.php:724
+msgid "GoDaddy Payments is available for %1$s-based businesses. Please %2$supdate your Store Address%3$s if you are in the %4$s."
+msgstr "GoDaddy Payments is available for %1$s-based businesses. Please %2$supdate your Store Address%3$s if you are in the %4$s."
+
+#. translators: Placeholders: %1$s - Plugin name, %2$s - country based pricing, %3$s - opening <a> HTML link tag, %4$s - closing </a> HTML link tag
+#: src/Plugin.php:757
+msgid "Set up %1$s for WooCommerce to securely accept credit and debit card payments in your checkout, and keep more of your money with the industry's lowest fees - just %2$s per online transaction. %3$sSet up now%4$s"
+msgstr "Set up %1$s for WooCommerce to securely accept credit and debit card payments in your checkout, and keep more of your money with the industry's lowest fees - just %2$s per online transaction. %3$sSet up now%4$s"
+
+#: src/REST/Controllers/SupportController.php:64
+msgid "Whether to create a new support user."
+msgstr "Whether to create a new support user."
+
+#: src/REST/Controllers/SupportController.php:70
+msgid "The email address to which the request should be attributed."
+msgstr "The email address to which the request should be attributed."
+
+#: src/REST/Controllers/SupportController.php:76
+msgid "The submitted message."
+msgstr "The submitted message."
+
+#: src/REST/Controllers/SupportController.php:82
+msgid "The submitted reason slug."
+msgstr "The submitted reason slug."
+
+#: src/REST/Controllers/SupportController.php:88
+msgid "The submitted subject."
+msgstr "The submitted subject."
+
+#: src/REST/Controllers/SupportController.php:140
+msgid "An error occurred."
+msgstr "An error occurred."
+
+#: src/Shipping/CoreShippingMethods.php:114
+msgid "Order Instructions:"
+msgstr "Order Instructions:"
+
+#: src/Shipping/LocalDelivery/LocalDelivery.php:59
+#: src/Shipping/LocalDelivery/LocalDelivery.php:128
+msgid "Local delivery"
+msgstr "Local delivery"
+
+#: src/Shipping/LocalDelivery/LocalDelivery.php:60
+msgid "Allow customers to select local delivery service. Taxes will be applied using customer's shipping address."
+msgstr "Allow customers to select local delivery service. Taxes will be applied using customer's shipping address."
+
+#: src/Shipping/LocalDelivery/LocalDelivery.php:121
+msgid "Enter a cost (excl. tax) or sum, e.g. <code>10.00 * [qty]</code>."
+msgstr "Enter a cost (excl. tax) or sum, e.g. <code>10.00 * [qty]</code>."
+
+#: src/Shipping/LocalDelivery/LocalDelivery.php:121
+msgid "Use <code>[qty]</code> for the number of items, <br/><code>[cost]</code> for the total cost of items, and <code>[fee percent=\"10\" min_fee=\"20\" max_fee=\"\"]</code> for percentage based fees."
+msgstr "Use <code>[qty]</code> for the number of items, <br/><code>[cost]</code> for the total cost of items, and <code>[fee percent=\"10\" min_fee=\"20\" max_fee=\"\"]</code> for percentage based fees."
+
+#: src/Shipping/LocalDelivery/LocalDelivery.php:125
+msgid "Checkout Title"
+msgstr "Checkout Title"
+
+#: src/Shipping/LocalDelivery/LocalDelivery.php:127
+msgid "This controls the title which the user sees during checkout."
+msgstr "This controls the title which the user sees during checkout."
+
+#: src/Shipping/LocalDelivery/LocalDelivery.php:132
+msgid "Tax status"
+msgstr "Tax status"
+
+#: src/Shipping/LocalDelivery/LocalDelivery.php:137
+msgid "Taxable"
+msgstr "Taxable"
+
+#: src/Shipping/LocalDelivery/LocalDelivery.php:138
+msgctxt "Tax status"
+msgid "None"
+msgstr "None"
+
+#: src/Shipping/LocalDelivery/LocalDelivery.php:142
+msgid "Cost"
+msgstr "Cost"
+
+#: src/Shipping/LocalDelivery/LocalDelivery.php:150
+msgid "Minimum order amount total when available"
+msgstr "Minimum order amount total when available"
+
+#: src/Shipping/LocalDelivery/LocalDelivery.php:153
+msgid "The amount a customer’s order must be greater than or equal to in order to select the shipping method."
+msgstr "The amount a customer’s order must be greater than or equal to in order to select the shipping method."
+
+#: src/Shipping/LocalDelivery/LocalDelivery.php:158
+msgid "Minimum order total when free"
+msgstr "Minimum order total when free"
+
+#: src/Shipping/LocalDelivery/LocalDelivery.php:161
+msgid "The amount a customer’s order must be greater than or equal to for the shipping method to be free."
+msgstr "The amount a customer’s order must be greater than or equal to for the shipping method to be free."
+
+#: src/Shipping/LocalDelivery/LocalDelivery.php:166
+#: src/Shipping/LocalDelivery/LocalDelivery.php:168
+#: src/Shipping/LocalPickup/LocalPickup.php:68
+msgid "Checkout description"
+msgstr "Checkout description"
+
+#: src/Shipping/LocalDelivery/LocalDelivery.php:169
+msgid "This description will be displayed underneath the Local Delivery shipping method name in the Cart and Checkout pages."
+msgstr "This description will be displayed underneath the Local Delivery shipping method name in the Cart and Checkout pages."
+
+#: src/Shipping/LocalDelivery/LocalDelivery.php:176
+msgid "Delivery instructions"
+msgstr "Delivery instructions"
+
+#: src/Shipping/LocalDelivery/LocalDelivery.php:177
+msgid "Message that the customer will see on the order received page and the processing order email after checkout."
+msgstr "Message that the customer will see on the order received page and the processing order email after checkout."
+
+#: src/Shipping/LocalPickup/LocalPickup.php:70
+msgid "Shipping method description that the customer will see during checkout."
+msgstr "Shipping method description that the customer will see during checkout."
+
+#: src/Shipping/LocalPickup/LocalPickup.php:76
+msgid "Pickup instructions"
+msgstr "Pickup instructions"
+
+#: src/Shipping/LocalPickup/LocalPickup.php:78
+msgid "Message that the customer will see on the order received page as well as in the processing order and ready for pickup emails."
+msgstr "Message that the customer will see on the order received page as well as in the processing order and ready for pickup emails."
+
+#: src/Shipping/LocalPickup/LocalPickup.php:185
+#: src/Shipping/LocalPickup/LocalPickup.php:194
+#: src/Shipping/LocalPickup/LocalPickup.php:220
+msgid "Pickup Instructions"
+msgstr "Pickup Instructions"
+
+#: src/Support/Http/Adapters/RequestAdapter.php:59
+msgid "At least one valid email address should be specified."
+msgstr "At least one valid email address should be specified."
+
+#: src/Support/Http/Request.php:84
+msgid "Invalid response."
+msgstr "Invalid response."
+
+#: src/Sync/Jobs/PoyntTransactionSynchronizer.php:238
+#: src/Sync/Jobs/PoyntTransactionSynchronizer.php:243
+msgid "Paid in WooCommerce checkout by \"%s\""
+msgstr "Paid in WooCommerce checkout by \"%s\""
+
+#. translators: Placeholder: %1$s: payment gateway name
+#: src/Sync/PoyntOrderSynchronizer.php:447
+msgid "Transaction refunded by %1$s from WooCommerce."
+msgstr "Transaction refunded by %1$s from WooCommerce."
+
+#: src/Sync/PoyntOrderSynchronizer.php:449
+msgid "Transaction manually refunded from WooCommerce."
+msgstr "Transaction manually refunded from WooCommerce."
+
+#. translators: Placeholders: %1$s - date, %2$s - time
+#: src/Webhooks/PoyntOrderWebhookHandler.php:175
+msgid "Order marked ready on terminal on %1$s at %2$s"
+msgstr "Order marked ready on terminal on %1$s at %2$s"
+
+#: src/Webhooks/PoyntTransactionWebhookHandler.php:320
+msgid "From GoDaddy Payments Smart Terminal. Order fully refunded."
+msgstr "From GoDaddy Payments Smart Terminal. Order fully refunded."
+
+#: src/Webhooks/PoyntTransactionWebhookHandler.php:323
+msgid "From GoDaddy Payments Smart Terminal. Order partially refunded."
+msgstr "From GoDaddy Payments Smart Terminal. Order partially refunded."
+
+#: src/Webhooks/PoyntTransactionWebhookHandler.php:392
+msgid "GoDaddy Payments sale transaction (ID %s) reversed by void transaction (ID %s) via Smart Terminal."
+msgstr "GoDaddy Payments sale transaction (ID %s) reversed by void transaction (ID %s) via Smart Terminal."
+
+#: src/Webhooks/PoyntTransactionWebhookHandler.php:468
+msgid "GoDaddy Payments refund transaction (ID %s) reversed by void transaction (ID %s) via Smart Terminal."
+msgstr "GoDaddy Payments refund transaction (ID %s) reversed by void transaction (ID %s) via Smart Terminal."
+
+#. translators: Placeholder: %s - error message
+#: src/Webhooks/PoyntTransactionWebhookHandler.php:488
+msgid "Could not create refund: %s"
+msgstr "Could not create refund: %s"
+
+#: src/Webhooks/PoyntTransactionWebhookHandler.php:698
+msgid "Tip"
+msgstr "Tip"
+
+#: src/Webhooks/PoyntTransactionWebhookHandler.php:704
+msgid "Cashback"
+msgstr "Cashback"
+
+#. translators: Placeholders: %1$s - item fee name, %2$s - item fee amount
+#: src/Webhooks/PoyntTransactionWebhookHandler.php:735
+msgid "%1$s amount of %2$s added to order by GoDaddy Payments Smart Terminal"
+msgstr "%1$s amount of %2$s added to order by GoDaddy Payments Smart Terminal"
+
+#: templates/woocommerce/emails/plain/ready-for-pickup.php:34
+#: templates/woocommerce/emails/ready-for-pickup.php:38
+msgid "Your order is ready for pickup."
+msgstr "Your order is ready for pickup."
